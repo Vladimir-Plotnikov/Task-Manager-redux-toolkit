@@ -1,7 +1,7 @@
 import { WrapperTask, Text, TaskBtn, CheckBox, } from "./Task.styled";
 
 import { useDispatch } from "react-redux";
-import { deleteTask, toggleCompleted } from "redux/actions";
+import { deleteTask, toggleCompleted } from "redux/taskSlice";
 
 export const Task = ({ task }) => {
   const dispatch = useDispatch();
